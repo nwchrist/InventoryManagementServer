@@ -24,7 +24,7 @@ import java.util.ArrayList;
  */
 
 
-public class Program5 {
+public class server {
 
 	public class Order {												//Class for all order and list types, with several constructors
 		String name;
@@ -506,7 +506,7 @@ public class Program5 {
 	}
 
 	public static void main(String[] args) {
-		Program5 self = new Program5();
+		server self = new server();
 		self.server(Integer.parseInt(args[0]));
 	}
 }
