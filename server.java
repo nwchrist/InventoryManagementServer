@@ -21,10 +21,20 @@ import java.util.ArrayList;
  *		Added HTML 400 Bad Request Status Codes to the invalid type errors
  *
  *		Made the "New Order" and "Add Stock" pages load when an invade type was entered (included red warning at the top).
+ *
+ * 
+ * NOTE TO USER: You connect to this server using your local IPv4 address which can be found by running cmd and using the ipconfig command.
+ * The port to connect to can be found and changed on line 74. I do not currently know what the argument that you pass to the program does.
+ *
  */
 
 
 public class server {
+	
+	public static void main(String[] args) {
+		server self = new server();
+		self.server(Integer.parseInt(args[0]));
+	}
 
 	public class Order {												//Class for all order and list types, with several constructors
 		String name;
@@ -503,10 +513,5 @@ public class server {
 		} catch ( Exception e ) {
 			e.printStackTrace();
 		}
-	}
-
-	public static void main(String[] args) {
-		server self = new server();
-		self.server(Integer.parseInt(args[0]));
 	}
 }
