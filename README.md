@@ -20,6 +20,6 @@ This java socket server allows for stock to be managed via an order system which
  * 
  * NOTE TO USER: You connect to this server using your localhost, which can be done by simply typing localhost into your browser
  * or you can use your IPv4 address which can be found by running cmd and using the ipconfig command.
- * The port to connect to can be found and changed on line 74. I do not currently know what the argument that you pass to the program does.
+ * The port to connect to can be found and changed on line 74.
  *
  */
