@@ -1,4 +1,4 @@
-# simple-server
+# InventoryManagementServer
 Inventory managment server
 Created by Nick Christensen and Shaun Flynn
 
